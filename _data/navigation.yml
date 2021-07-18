@@ -1,0 +1,4 @@
+- name: blogs
+  link: /blogs
+- name: guides
+  link: /guides
