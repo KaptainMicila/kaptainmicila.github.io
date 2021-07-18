@@ -1,5 +1,4 @@
 sass:
     sass_dir: _scss
     style: compressed
-include:
-    - node_modules
+exclude: []
