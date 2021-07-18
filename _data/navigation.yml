@@ -1,4 +1,4 @@
-- name: blogs
-  link: /blogs
-- name: guides
+- name: BLOG
+  link: /blog
+- name: GUIDES
   link: /guides
