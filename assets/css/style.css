@@ -5,3 +5,8 @@ body, html {
     width: 100vw !important;
     height: 100vh !important;
 }
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+}
