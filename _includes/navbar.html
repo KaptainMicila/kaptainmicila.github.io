@@ -14,7 +14,7 @@
                     <li class="nav-item">
                         <a class="nav-link {% if page.url == navElement.link %}active{% endif %}"
                                 {% if page.url == navElement.link %} aria-current="page"{% endif %}
-                           href="{{ navElement.link }}">
+                           href="{% link {{ navElement.link }} %}">
                             {{ navElement.name }}
                         </a>
                     </li>
