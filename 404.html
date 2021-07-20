@@ -1,6 +1,19 @@
----
-layout: error
-code: 404
-permalink: /404.html
----
-PAGE NOT FOUND
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>KAPTAIN'S STASH WEBSITE: 404</title>
+    <link href="/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
+    <script rel="stylesheet" src="/assets/js/bootstrap/bootstrap.bundle.js"></script>
+</head>
+<body>
+{% include navbar.html %}
+<main class="d-flex flex-column justify-content-center align-content-center">
+    <h1>PAGE NOT FOUND</h1>
+    <h3>Be sure to copy paste that link right next time!</h3>
+    <a class="btn btn-success text-white" href="{% link index.html %}">GO BACK TO INDEX</a>
+</main>
+</body>
+</html>
