@@ -1,3 +1,4 @@
-sass:
-    sass_dir: _scss
-    style: compressed
+collections_dir: collections
+collections:
+    guides:
+        output: true
